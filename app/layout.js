@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <ClerkProvider>
           <ConvexClientProvider>
             <Header/>
-            <main className="flex min-h-screen flex-col items-center p-24">
+            <main className="min-h-screen">
               {children}
           </main>
           </ConvexClientProvider>
