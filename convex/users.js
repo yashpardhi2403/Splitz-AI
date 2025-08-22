@@ -57,7 +57,7 @@ export const getCurrentUser=query({
 
     return user;
   }
-});
+}); 
 
 export const searchUsers = query({
   args:{ query: v.string()},
