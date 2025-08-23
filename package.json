@@ -34,6 +34,7 @@
     "react-dom": "19.1.0",
     "react-hook-form": "^7.61.1",
     "react-spinners": "^0.17.0",
+    "recharts": "^3.1.2",
     "sonner": "^2.0.6",
     "spinners": "^1.2.2",
     "tailwind-merge": "^3.3.1",
