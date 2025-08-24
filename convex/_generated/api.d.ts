@@ -18,6 +18,7 @@ import type * as dashboard from "../dashboard.js";
 import type * as expenses from "../expenses.js";
 import type * as groups from "../groups.js";
 import type * as seed from "../seed.js";
+import type * as settlements from "../settlements.js";
 import type * as users from "../users.js";
 
 /**
@@ -34,6 +35,7 @@ declare const fullApi: ApiFromModules<{
   expenses: typeof expenses;
   groups: typeof groups;
   seed: typeof seed;
+  settlements: typeof settlements;
   users: typeof users;
 }>;
 export declare const api: FilterApi<
